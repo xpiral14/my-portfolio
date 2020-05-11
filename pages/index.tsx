@@ -237,6 +237,7 @@ const Index: React.FC = () => (
     <Container area="hab">
       <Content>
         <h2>Habilidades</h2>
+        <br/>
         <List>
           <p>
             <strong>Node Js:&nbsp;</strong>
