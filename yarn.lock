@@ -975,6 +975,13 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@types/react-ga@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@types/react-ga/-/react-ga-2.3.0.tgz#dbd56dd622cabb5baebc896e3ee67dfdc29babc1"
+  integrity sha512-7Vkv6wH1Kem4vkjuJxRYxDgLfokm0shugDk0W5p9C28POrsPAXezLbgP5C2tyFZ7lKARdyrCxwkdRTC1UV0dHg==
+  dependencies:
+    react-ga "*"
+
 "@types/react-native@*":
   version "0.62.7"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.7.tgz#bfc5ed03ba576f288603daa3f67f0f67d9a8bf57"
@@ -3811,9 +3818,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 pbkdf2@^3.0.3:
   version "3.0.17"
@@ -4358,6 +4365,16 @@ react-dom@^16.8.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-ga@*:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.0.tgz#c91f407198adcb3b49e2bc5c12b3fe460039b3ca"
+  integrity sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
+
+react-ga@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.7.0.tgz#24328f157f31e8cffbf4de74a3396536679d8d7c"
+  integrity sha512-AjC7UOZMvygrWTc2hKxTDvlMXEtbmA0IgJjmkhgmQQ3RkXrWR11xEagLGFGaNyaPnmg24oaIiaNPnEoftUhfXA==
 
 react-is@16.8.6:
   version "16.8.6"
